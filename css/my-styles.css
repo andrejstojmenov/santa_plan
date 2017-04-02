@@ -1,0 +1,100 @@
+#fh5co-features .container{
+	min-height: 700px;
+}
+
+
+
+.panel-title, .panel-heading a{
+	color: #fff;
+}
+
+
+.panel-info > .panel-heading{
+	background-color: #E78F08;
+    border-color: #E78F08;
+}
+
+
+.custom-btn-group .btn-default {
+	border-color: #fff;
+}
+
+.custom-btn-group .btn{
+	line-height:inherit;
+	margin-top: 3px;
+	letter-spacing: inherit;
+}
+
+.custom-btn-group .btn:hover{
+	background-color: #E78F08;
+}
+
+.custom-btn-group.open .btn:focus{
+	background-color: #E78F08;
+}
+
+.active .custom-btn-group .btn-default {
+	background-color: #E78F08;
+}
+
+.fh5co-page-heading{
+	text-transform: none;
+}
+
+.owl-carousel-fullwidth .fh5co-owl-text-wrap{
+	height: 712px;
+}
+
+body{
+	padding-top: 60px;
+}
+
+
+/*  Carousel CSS  */
+
+.carousel-inner > .item {
+  height: 75vh;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-height: 300px;
+  width: auto;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  /* background-image: none; */
+}
+
+
+
+/* Datepicker CSS */
+
+.highlighted-date, .highlighted-date a{
+	
+}
+
+.highlighted-date-red .ui-state-default, .highlighted-date-red .ui-widget-content .ui-state-default{
+	background:#ff4d4d;
+}
+
+.highlighted-date-blue .ui-state-default, .highlighted-date-blue .ui-widget-content .ui-state-default{
+	background:#11DD0E;
+}
+
+
+
+/* Kursna lista CSS */
+#currency_table, #currency_table td, #currency_table th{
+	border: 1px solid black;
+	padding: 4px;
+}
+
+
+
